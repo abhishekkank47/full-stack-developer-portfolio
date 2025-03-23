@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import {motion} from "framer-motion"
 import { FaLinkedin } from "react-icons/fa";
-import { FaSquareGithub, FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
+
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="navbar bg-[#2792df] overflow-x-hidden shadow-md h-[7vh]  fixed top-0 z-50"
+        className="navbar bg-[#2792df] overflow-x-hidden shadow-md h-[5vh] sm:h-[7vh]  fixed top-0 z-50"
         style={{
           backgroundImage: `url("https://res.cloudinary.com/dqt8po5ie/image/upload/v1742359546/InteriorDesignWeb/text-bg_bu8xx2.png")`,
           backgroundPosition: "center",
@@ -30,7 +30,7 @@ const Navbar = () => {
             >
               <button
                 onClick={handleHamShow}
-                className="font-extrabold lg:text-3xl text-xl text-white"
+                className="font-extrabold text-sm text-white"
               >
                 ☰
               </button>
@@ -38,13 +38,13 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost hover:bg-transparent hover:text-[#96EFFF] lg:text-2xl text-xl text-white">
+          <a className=" hover:bg-transparent hover:text-[#96EFFF] lg:text-2xl text-lg text-white">
             <span className="text-white">Abhishek</span>
             <span className="text-sky-400">Kank</span>
           </a>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle"></button>
+          <button className=""></button>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ const Navbar = () => {
                       {" "}
                       Abhishek <span className=" text-cyan-600">Kank</span>{" "}
                     </h1>
-                    <h2 className="text-xl px-5 md:px-0">
+                    <h2 className="text-xl px-7 md:px-0">
                       Paud Road, Kothrud - 411 038, Pune, Maharashtra, India{" "}
                     </h2>
                     <div className="w-full h-[2px] bg-yellow-500 px-5 md:px-0"></div>
@@ -108,33 +108,22 @@ const Navbar = () => {
                         to="https://linkedin.com/in/abhishek-kank-ak47"
                         className="text-cyan-500 hover:text-yellow-500"
                       >
-                        <FaLinkedin className="text-5xl" />
+                        <FaLinkedin className="sm:text-5xl text-3xl" />
                       </Link>
-                      <Link
-                        to="/"
-                        className="text-cyan-500 hover:text-yellow-500"
-                      >
-                        <FaSquareXTwitter className="text-5xl" />
-                      </Link>
-                      <Link
-                        to="/"
-                        className="text-cyan-500 hover:text-yellow-500"
-                      >
-                        <FaInstagram className="text-5xl" />
-                      </Link>
+                      
                       <Link
                         target="_blank"
                         to="https://github.com/abhishekkank47"
                         className="text-cyan-500 hover:text-yellow-500"
                       >
-                        <FaSquareGithub className="text-5xl" />
+                        <FaSquareGithub className="sm:text-5xl text-3xl" />
                       </Link>
                       <Link
                         target="_blank"
                         to="mailto:abhishekkank5@gmail.com"
                         className="text-cyan-500 hover:text-yellow-500"
                       >
-                        <SiGmail className="text-5xl" />
+                        <SiGmail className="sm:text-5xl text-3xl" />
                       </Link>
                     </div>
                   </div>

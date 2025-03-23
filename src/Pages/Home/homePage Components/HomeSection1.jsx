@@ -96,7 +96,7 @@ const HomeSection1 = () => {
             >
               Full Stack Developer
             </motion.h1>
-            <div className="text-xs text-center text-blue-900 p-5 md:p-0">
+            <div className="text-xs text-center text-blue-900 px-5 md:p-0">
               <p className="text-[16px] pb-2 font-semibold">
                 Hello, I'm Abhishek Kank, A Experienced Developer From India.
                 <br />

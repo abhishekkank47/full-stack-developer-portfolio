@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { FaSquareGithub, FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { FaSquareGithub } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 
@@ -17,23 +16,23 @@ const Footer = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="flex justify-center items-center col-span-1 md:col-span-2 md:h-screen w-full ">
-          <ul className="">
-          <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-5 md:my-10">
+        <div className="flex justify-center items-center col-span-1 md:col-span-2 md:h-screen w-full">
+          <ul className=" sm:pt-0 pt-14">
+          <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-3 md:my-10">
               <Link to="/">Home</Link>
             </li>
-            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-5 md:my-10">
+            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-3 md:my-10">
               <Link to="/projects">Projects</Link>
             </li>
 
-            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-5 md:my-10">
+            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-3 md:my-10">
             <Link to="/about">About Me</Link>
             </li>
 
-            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-5 md:my-10">
+            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-3 md:my-10">
             <Link to="/services">Services</Link>
             </li>
-            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-5 md:my-10">
+            <li className="text-lg font-thin uppercase hover:text-yellow-400 text-white my-3 md:my-10">
             <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
@@ -55,7 +54,7 @@ const Footer = () => {
                   {" "}
                   Abhishek <span className=" text-cyan-600">Kank</span>{" "}
                 </h1>
-                <h2 className="text-xl px-5 md:px-0">
+                <h2 className="text-xl px-7 md:px-0">
                   Paud Road, Kothrud - 411 038, Pune, Maharashtra, India{" "}
                 </h2>
                 <div className="w-full h-[2px] bg-yellow-500 px-5 md:px-0"></div>
@@ -66,21 +65,16 @@ const Footer = () => {
                 <div className="flex justify-center items-center mt-5 gap-8 px-5 md:px-0">
                   <Link target="_blank"
                     to="https://linkedin.com/in/abhishek-kank-ak47" className="text-cyan-500 hover:text-yellow-500">
-                    <FaLinkedin className="text-5xl" />
+                    <FaLinkedin className="sm:text-5xl text-3xl" />
                   </Link>
-                  <Link to="/" className="text-cyan-500 hover:text-yellow-500">
-                    <FaSquareXTwitter className="text-5xl" />
-                  </Link>
-                  <Link to="/" className="text-cyan-500 hover:text-yellow-500">
-                    <FaInstagram className="text-5xl" />
-                  </Link>
+                 
                   <Link target="_blank"
                     to="https://github.com/abhishekkank47" className="text-cyan-500 hover:text-yellow-500">
-                    <FaSquareGithub className="text-5xl" />
+                    <FaSquareGithub className="sm:text-5xl text-3xl" />
                   </Link>
                   <Link target="_blank"
                     to="mailto:abhishekkank5@gmail.com" className="text-cyan-500 hover:text-yellow-500">
-                    <SiGmail className="text-5xl" />
+                    <SiGmail className="sm:text-5xl text-3xl" />
                   </Link>
                 </div>
               </div>

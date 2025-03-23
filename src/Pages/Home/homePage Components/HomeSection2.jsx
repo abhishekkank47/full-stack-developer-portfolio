@@ -16,8 +16,8 @@ const HomeSection2 = () => {
         <div className="pt-[10vh]">
           <div className="container mx-auto py-8">
             <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
-              <div className="col-span-4 sm:col-span-3">
-                <div className=" border-4 border-blue-300 shadow rounded-lg p-6 h-full">
+              <div className="col-span-4 sm:col-span-3 pt-4 sm:pt-0">
+                <div className=" border-4 border-blue-300 shadow rounded-lg p-2 sm:p-6 h-full">
                   <div className="flex flex-col items-center">
                     <img
                       src="https://media.licdn.com/dms/image/v2/D4D03AQFtTnAZ_f-dZw/profile-displayphoto-shrink_400_400/B4DZUDNzu1HAAg-/0/1739515707243?e=1747872000&v=beta&t=ToD3R8CCO-huFwKMyuIrlJUXBvh_q_hyjJ55uIMlGhs"

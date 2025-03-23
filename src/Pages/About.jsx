@@ -26,7 +26,7 @@ const About = () => {
                             <div className="flex flex-col items-center">
                               <img
                                 src="https://media.licdn.com/dms/image/v2/D4D03AQFtTnAZ_f-dZw/profile-displayphoto-shrink_400_400/B4DZUDNzu1HAAg-/0/1739515707243?e=1747872000&v=beta&t=ToD3R8CCO-huFwKMyuIrlJUXBvh_q_hyjJ55uIMlGhs"
-                                className="w-28 h-w-28 bg-gray-300 border-4 border-yellow-300 rounded-full mb-4 shrink-0"
+                                className="w-24 h-24 sm:w-28 sm:h-w-28 bg-gray-300 border-4 border-yellow-300 rounded-full mb-4 shrink-0"
                               />
                               <h1 className="text-xl font-bold text-blue-900">
                                 <span className="flex justify-center items-center">Abhishek Kank<MdVerified className="ms-1 text-blue-500" /></span>
@@ -35,11 +35,11 @@ const About = () => {
                               <p className="text-blue-800 text-sm">
                                 B.E. Electronic & T.C. Engineer (2024)
                               </p>
-                              <p className="text-blue-800 text-xs">
+                              <p className="text-blue-800 text-center text-xs">
                                 SPPU Pune University - RMD Sinhagad Institute{" "}
                               </p>
                             </div>
-                            <hr className="my-6 border-t border-blue-700" />
+                            <hr className="my-2 sm:my-6 border-t border-blue-700" />
                             <div className="flex flex-col">
                               <ul className=" p-4 rounded-lg">
                                 <li className="mb-2 flex justify-center items-center gap-2">
