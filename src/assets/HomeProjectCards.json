@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Microservices Social Platform",
+    "description": "A scalable social media app built with microservices architecture. Separate services for user management, posts, and notifications, integrated with a CI/CD pipeline.",
+    "img": "/src/assets/projects/SocialMedia.webp",
+    "focusedOn": "Microservices, Redis, Docker, RabbitMQ, Express, Node.js, MongoDB, CI/CD",
+    "githubLink": "https://github.com/abhishekkank47/social-media-microservice-architecture.git",
+    "liveLink": ""
+  },
+  {
+    "title": "Full Stack E-commerce Platform",
+    "description": "A complete e-commerce solution with user authentication, product catalog, cart, and payment integration. Built with MERN stack for seamless performance.",
+    "img": "/src/assets/projects/Ecommerce.webp",
+    "focusedOn": "MERN Stack, Authentication, Tailwind CSS, DaisyUI",
+    "githubLink": "https://github.com/abhishekkank47/CodeClauseInternship_Pet-selling-system.git",
+    "liveLink": "https://pet-selling-ecommerce-platform.vercel.app/"
+  },
+  {
+    "title": "Full Stack Web Solutions",
+    "description": "A document management system developed during an internship. Features include secure file uploads, user roles, and search functionality for a company’s internal use.",
+    "img": "/src/assets/projects/InternshipProjetcs.webp",
+    "focusedOn": "React.js, Node.js, MongoDB, PostgreSQL, MySQL, TailwindCSS, AWS EC2",
+    "githubLink": "1",
+    "liveLink": ""
+  }
+  ]
+  
