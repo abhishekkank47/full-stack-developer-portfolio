@@ -2,7 +2,7 @@
     {
       "title": "Microservices Social Platform",
       "description": "A scalable social media app built with microservices architecture. Separate services for user management, posts, and notifications, integrated with a CI/CD pipeline.",
-      "img": "/src/assets/projects/SocialMedia.webp",
+      "img": "/SocialMedia.webp",
       "focusedOn": "Microservices, Redis, Docker, RabbitMQ, Express, Node.js, MongoDB, CI/CD",
       "githubLink": "https://github.com/abhishekkank47/social-media-microservice-architecture.git",
       "liveLink": ""
@@ -10,23 +10,23 @@
     {
       "title": "E-commerce Platform",
       "description": "A complete e-commerce solution with user authentication, product catalog, cart, and payment integration. Built with MERN stack for seamless performance.",
-      "img": "/src/assets/projects/Ecommerce.webp",
+      "img": "/Ecommerce.webp",
       "focusedOn": "MERN Stack, Authentication, Tailwind CSS, DaisyUI",
       "githubLink": "https://github.com/abhishekkank47/CodeClauseInternship_Pet-selling-system.git",
       "liveLink": "https://pet-selling-ecommerce-platform.vercel.app/"
     },
     {
       "title": "Full Stack Web Solutions",
-      "description": "A document management system developed during an internship. Features include secure file uploads, user roles, and search functionality for a company’s internal use.",
-      "img": "/src/assets/projects/InternshipProjetcs.webp",
+      "description": "Responsible for Designing React Frontend with Tailwind css, Integration of Node JS Backend to Databases And Frontend. AWS EC2 deployment of Applications",
+      "img": "/InternshipProjetcs.webp",
       "focusedOn": "React.js, Node.js, MongoDB, PostgreSQL, MySQL, TailwindCSS, AWS EC2",
-      "githubLink": "1",
+      "githubLink": "https://drive.google.com/file/d/1ygxXfdbOGuNcOE2Y2wONzE7_tOsWy7xR/view",
       "liveLink": ""
     },
     {
       "title": "Book Store Backend",
       "description": "A backend API for a bookstore with filtering and sorting features. Built with Node.js and MongoDB to manage books, categories, and user queries efficiently.",
-      "img": "/src/assets/projects/bookStore.webp",
+      "img": "/bookStore.webp",
       "focusedOn": "Node.js, MongoDB, REST API, Aggregation Pipeline",
       "githubLink": "https://github.com/abhishekkank47/edunovaBooks.git",
       "liveLink": "https://booksstore-onmq.onrender.com"
@@ -34,7 +34,7 @@
     {
       "title": "React Tailwind Music Player",
       "description": "A responsive music player UI built with React and styled with Tailwind CSS. Includes play/pause, track selection, and a sleek design for an enhanced user experience.",
-      "img": "/src/assets/projects/MusicPlayer.webp",
+      "img": "/MusicPlayer.webp",
       "focusedOn": "React, Tailwind CSS, UI/UX",
       "githubLink": "https://github.com/abhishekkank47/CodeClauseInternship_Music-Player.git",
       "liveLink": "https://music-player-reactjs-ten.vercel.app/"
@@ -42,7 +42,7 @@
     {
       "title": "React Tailwind Image Gallery",
       "description": "A dynamic image gallery built with React and Tailwind CSS. Features Third Party JSON API Integration, lightbox view, and a modern grid layout for showcasing visuals.",
-      "img": "/src/assets/projects/ImageGallery.webp",
+      "img": "/ImageGallery.webp",
       "focusedOn": "React, Tailwind CSS",
       "githubLink": "https://github.com/abhishekkank47/CodeClauseInternship_Image-Gallery.git",
       "liveLink": "https://image-gallery-using-reactjs.vercel.app/"
