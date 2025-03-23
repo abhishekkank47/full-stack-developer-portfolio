@@ -14,20 +14,20 @@ const HomeSection2 = () => {
         }}
       >
         <div className="pt-[10vh]">
-          <div className="container mx-auto py-8">
+          <div className="container mx-auto pb-8 sm:py-8">
             <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4">
-              <div className="col-span-4 sm:col-span-3 pt-4 sm:pt-0">
+              <div className="col-span-4 sm:col-span-3 ">
                 <div className=" border-4 border-blue-300 shadow rounded-lg p-2 sm:p-6 h-full">
                   <div className="flex flex-col items-center">
                     <img
                       src="https://media.licdn.com/dms/image/v2/D4D03AQFtTnAZ_f-dZw/profile-displayphoto-shrink_400_400/B4DZUDNzu1HAAg-/0/1739515707243?e=1747872000&v=beta&t=ToD3R8CCO-huFwKMyuIrlJUXBvh_q_hyjJ55uIMlGhs"
-                      className="w-28 h-w-28 bg-gray-300 border-4 border-yellow-300 rounded-full mb-4 shrink-0"
+                      className="w-24 h-w-24 bg-gray-300 border-4 border-yellow-300 rounded-full  shrink-0"
                     />
-                    <h1 className="text-xl font-bold text-blue-900">
+                    <h1 className="text-lg font-bold text-blue-900">
                       <span className="flex justify-center items-center">Abhishek Kank<MdVerified className="ms-1 text-blue-500" /></span>
                     </h1>
                     <p className="text-blue-500">Full Stack Developer</p>
-                    <p className="text-blue-800 text-sm">
+                    <p className="text-blue-800 text-xs">
                       B.E. Electronic & T.C. Engineer (2024)
                     </p>
                     <p className="text-blue-800 text-xs">

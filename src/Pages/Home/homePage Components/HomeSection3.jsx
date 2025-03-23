@@ -36,51 +36,51 @@ const HomeSection3 = () => {
               <div className="">
                 <ul className="rounded-md">
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">🌐</span>
+                    <span className="text-lg sm:text-xl me-2">🌐</span>
                     End-to-end system architecture with microservices design
                     patterns
                   </li>
 
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">🔒</span>
+                    <span className="text-lg sm:text-xl me-2">🔒</span>
                     Production-grade security implementation (DDoS protection
                     strategies, rate limiting)
                   </li>
 
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">⚡</span>
+                    <span className="text-lg sm:text-xl me-2">⚡</span>
                     Performance optimization through caching mechanisms and
                     query optimization
                   </li>
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">🐳</span>
+                    <span className="text-lg sm:text-xl me-2">🐳</span>
                     Scalable infrastructure design (horizontal scaling,
                     containerization with Docker)
                   </li>
 
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">✨</span>
+                    <span className="text-lg sm:text-xl me-2">✨</span>
                     Interactive Experiences Breathing life into websites with
                     Framer Motion animations
                   </li>
 
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">⚡</span>
+                    <span className="text-lg sm:text-xl me-2">⚡</span>
                     Performance Optimization by code-splitting, and lazy loading
                   </li>
 
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">🧩</span>
+                    <span className="text-lg sm:text-xl me-2">🧩</span>
                     Complex Component Design Building dynamic UIs using Tailwind
                     CSS
                   </li>
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">🚀</span>
+                    <span className="text-lg sm:text-xl me-2">🚀</span>
                     Creating reusable UI patterns with Tailwind’s utility-first
                     approach
                   </li>
                   <li className="text-sm text-pretty text-black sm:my-5">
-                    <span className="text-xl me-2">📱</span>
+                    <span className="text-lg sm:text-xl me-2">📱</span>
                     Responsive designs across all breakpoints
                   </li>
                 </ul>

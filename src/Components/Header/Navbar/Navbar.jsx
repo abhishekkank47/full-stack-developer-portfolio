@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <a className=" hover:bg-transparent hover:text-[#96EFFF] lg:text-2xl text-lg text-white">
+          <a className=" hover:bg-transparent hover:text-[#96EFFF] lg:text-2xl text-xl text-white">
             <span className="text-white">Abhishek</span>
             <span className="text-sky-400">Kank</span>
           </a>
