@@ -21,11 +21,11 @@ const Projects = () => {
           }}
         >
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 sm:pt-[9vh]">
-            <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 mt-2 sm:text-left sm:pt-[80vh]">
+            <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 mt-2 sm:text-left sm:pt-[75vh]">
               {projects.map((project, index) => (
                 <div
                   key={index}
-                  className="bg-white border-4 border-blue-400  shadow-lg"
+                  className="bg-white border-4 border-blue-400 mt-[2vh] sm:mt-[6vh] shadow-lg"
                   style={{
                     backgroundImage: `url("https://res.cloudinary.com/dqt8po5ie/image/upload/v1742359544/InteriorDesignWeb/bg1_w43a5m.jpg")`,
                     backgroundSize: "cover",
