@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { MdVerified } from "react-icons/md";
+import profile from '/profile.jpg'
 
 const HomeSection2 = () => {
   return (
@@ -20,7 +21,7 @@ const HomeSection2 = () => {
                 <div className=" border-4 border-blue-300 shadow rounded-lg p-2 sm:p-6 h-full">
                   <div className="flex flex-col items-center">
                     <img
-                      src="https://media.licdn.com/dms/image/v2/D4D03AQFtTnAZ_f-dZw/profile-displayphoto-shrink_400_400/B4DZUDNzu1HAAg-/0/1739515707243?e=1747872000&v=beta&t=ToD3R8CCO-huFwKMyuIrlJUXBvh_q_hyjJ55uIMlGhs"
+                      src={profile}
                       className="w-24 h-w-24 bg-gray-300 border-4 border-yellow-300 rounded-full  shrink-0"
                     />
                     <h1 className="text-lg font-bold text-blue-900">
