@@ -3,6 +3,7 @@ import Navbar from "../Components/Header/Navbar/Navbar";
 import SubNavbar from "../Components/Header/Sub-Navbar/SubNavbar";
 import Footer from "../Components/Footer/Footer";
 import { MdVerified } from "react-icons/md";
+import profile from '/profile.jpg'
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
                   <div className=" border-4 border-blue-300 shadow rounded-lg p-6 h-full">
                     <div className="flex flex-col items-center">
                       <img
-                        src="https://media.licdn.com/dms/image/v2/D4D03AQFtTnAZ_f-dZw/profile-displayphoto-shrink_400_400/B4DZUDNzu1HAAg-/0/1739515707243?e=1747872000&v=beta&t=ToD3R8CCO-huFwKMyuIrlJUXBvh_q_hyjJ55uIMlGhs"
+                        src={profile}
                         className="w-24 h-24 sm:w-28 sm:h-28 bg-gray-300 border-4 border-yellow-300 rounded-full mb-4 shrink-0"
                       />
                       <h1 className="text-xl font-bold text-blue-900">
